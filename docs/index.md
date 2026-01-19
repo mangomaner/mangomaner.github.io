@@ -1,0 +1,23 @@
+---
+layout: home
+
+hero:
+  name: "MangoBot"
+  text: "轻量 Java 机器人框架"
+  tagline: 基于 OneBot 11 协议，构建你的专属机器人。
+  actions:
+    - theme: brand
+      text: 快速开始
+      link: /guide/getting-started
+    - theme: alt
+      text: 插件开发
+      link: /development/plugin
+
+features:
+  - title: OneBot 11 支持
+    details: 兼容 OneBot 11 标准，轻松对接各类 OneBot 实现。
+  - title: 强大的插件系统
+    details: 支持动态加载 JAR 插件，业务逻辑解耦，热插拔式扩展，开发更灵活。
+  - title: 简洁的开发体验
+    details: 基于注解驱动的事件监听机制，主项目为插件提供依赖注入，让Bot开发化繁为简。
+---
