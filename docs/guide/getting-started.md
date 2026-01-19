@@ -4,31 +4,27 @@
 
 ## 环境要求
 
-- JDK 17+
+- JDK 17+ （release中已包含，单纯使用无需手动安装）
 - 一个支持 OneBot 11 协议的客户端（如 LLOneBot, NapCat 等）
 
 ## 运行步骤
 
 ### 1. 下载与启动
 
-首先，下载Release到本地：
-
-```
-https://github.com/mangomaner/MangoBot-cli/releases
-```
+首先，下载[Release](https://github.com/mangomaner/MangoBot-cli/releases)到本地：
 
 解压后双击运行`start.bat`文件，等待启动完成后浏览器输入如下网址
 
 ```
-http://localhost:8765
+http://localhost:8082
 ```
 
 
 ### 2. 配置 OneBot 客户端
 
 在你的 OneBot 客户端（如 [LLOneBot](https://github.com/LLOneBot)）中，配置反向 WebSocket 地址：
-![img.png](img.png)
-- URL: `ws://localhost:8765/` 
+![img_2.png](img_2.png)
+- URL: `ws://localhost:8082/` 
 - 启用反向 WebSocket 服务
 
 
