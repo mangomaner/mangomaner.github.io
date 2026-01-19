@@ -4,7 +4,7 @@ MangoBot 提供了便捷的 API 来与 OneBot 客户端交互。
 
 ## OneBotApiService
 
-`io.github.mangomaner.mangobot.service.OneBotApiService` 是主要的服务接口。通常你不需要直接实例化它，可以通过 Spring 注入获取。
+`OneBotApiService` 是主要的服务接口。通常你不需要直接实例化它，可以通过 主项目 注入获取。
 
 ### 注入方式
 
